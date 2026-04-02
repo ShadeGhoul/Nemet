@@ -139,6 +139,8 @@
   <button class="tab-btn" onclick="showSection('unserhaus')">🏡 Unser Haus</button>
   <button class="tab-btn" onclick="showSection('restaurant')">🍽️ Restaurant</button>
   <button class="tab-btn" onclick="showSection('urlaub')">✈️ Urlaub</button>
+  <button class="tab-btn" onclick="showSection('geld')">💰 Geld</button>
+  <button class="tab-btn" onclick="showSection('zukunft')">🔭 Zukunft</button>
 </div>
 
 <main>
@@ -152,6 +154,8 @@
     <div class="topic-card" onclick="showSection('unserhaus')"><div class="t-emoji">🏡</div><div class="t-name">Unser Haus</div><div class="t-sub">Otthonunk</div></div>
     <div class="topic-card" onclick="showSection('restaurant')"><div class="t-emoji">🍽️</div><div class="t-name">Restaurant</div><div class="t-sub">Érettségi szituáció</div></div>
     <div class="topic-card" onclick="showSection('urlaub')"><div class="t-emoji">✈️</div><div class="t-name">Urlaub</div><div class="t-sub">Nyaralás</div></div>
+    <div class="topic-card" onclick="showSection('geld')"><div class="t-emoji">💰</div><div class="t-name">Geld</div><div class="t-sub">Pénz, bank, zsebpénz</div></div>
+    <div class="topic-card" onclick="showSection('zukunft')"><div class="t-emoji">🔭</div><div class="t-name">Zukunftspläne</div><div class="t-sub">Jövőtervek</div></div>
   </div>
   <div style="margin-top:20px;" class="info-box">
     <div class="info-title">💡 Hogyan használd?</div>
@@ -533,6 +537,186 @@
     </div>
   </div>
 </div>
+<!-- ══ GELD ══ -->
+<div class="section" id="geld">
+  <div class="section-title">💰 Geld-Konversation</div>
+  <p class="section-sub">Egyszerűsített mondatok a pénz és bank témájából — minden sor külön tanulható.</p>
+
+  <div class="card">
+    <div class="card-title">
+      <span class="icon" style="background:#e8f7ec;">📖</span>
+      Szöveg — Geld-Konversation
+      <button class="read-btn" onclick="speakAll('geld-de')" style="margin-left:auto;">🔊 Egész szöveg</button>
+    </div>
+    <div class="parallel">
+      <div class="par-de" id="geld-de">
+        <div class="par-label">🇩🇪 Deutsch</div>
+        <div class="sent"><span class="sent-num">1</span><button class="speak-btn" onclick="speak('Haben Sie Taschengeld?')">🔊</button><strong>Haben Sie Taschengeld?</strong></div>
+        <div class="sent"><span class="sent-num">2</span><button class="speak-btn" onclick="speak('Ich habe Taschengeld, das ist das Stipendium — 25000 Forint.')">🔊</button>Ich habe Taschengeld, das ist das Stipendium — 25000 Forint.</div>
+        <div class="sent"><span class="sent-num">3</span><button class="speak-btn" onclick="speak('Im Sommer habe ich an mehreren Stellen gearbeitet.')">🔊</button>Im Sommer habe ich an mehreren Stellen gearbeitet.</div>
+        <div class="sent"><span class="sent-num">4</span><button class="speak-btn" onclick="speak('Die Arbeit war anstrengend, aber ich habe 150000 Forint bekommen.')">🔊</button>Die Arbeit war anstrengend, aber ich habe 150000 Forint bekommen.</div>
+        <div class="sent"><span class="sent-num">6</span><button class="speak-btn" onclick="speak('Bei uns im Öveges gibt es eine duale Ausbildung.')">🔊</button>Bei uns im Öveges gibt es eine duale Ausbildung.</div>
+        <div class="sent"><span class="sent-num">7</span><button class="speak-btn" onclick="speak('Trotz der dualen Ausbildung befindet sich unser Praxisplatz hier in der Schule.')">🔊</button>Trotz der dualen Ausbildung befindet sich unser Praxisplatz hier in der Schule.</div>
+        <div class="sent"><span class="sent-num">8</span><button class="speak-btn" onclick="speak('Wofür geben Sie das Geld aus?')">🔊</button><strong>Wofür geben Sie das Geld aus?</strong></div>
+        <div class="sent"><span class="sent-num">9</span><button class="speak-btn" onclick="speak('Ich gebe mein Geld für Kleider aus, zum Beispiel für einen Pulli oder für Schuhe.')">🔊</button>Ich gebe mein Geld für Kleider aus, zum Beispiel für einen Pulli oder für Schuhe.</div>
+        <div class="sent"><span class="sent-num">11</span><button class="speak-btn" onclick="speak('Ich gebe auch viel Geld für mein Hobby aus.')">🔊</button>Ich gebe auch viel Geld für mein Hobby aus.</div>
+        <div class="sent"><span class="sent-num">12</span><button class="speak-btn" onclick="speak('Am liebsten würde ich mein Taschengeld für Reisen ausgeben.')">🔊</button>Am liebsten würde ich mein Taschengeld für Reisen ausgeben.</div>
+        <div class="sent"><span class="sent-num">13</span><button class="speak-btn" onclick="speak('Was kann man in einer Bank machen?')">🔊</button><strong>Was kann man in einer Bank machen?</strong></div>
+        <div class="sent"><span class="sent-num">14</span><button class="speak-btn" onclick="speak('In einer Bank kann man Kredit aufnehmen, Geld wechseln und ein Konto eröffnen.')">🔊</button>In einer Bank kann man Kredit aufnehmen, Geld wechseln und ein Konto eröffnen.</div>
+        <div class="sent"><span class="sent-num">15</span><button class="speak-btn" onclick="speak('Man kann auch Geld überweisen, Geld abheben und eine Kreditkarte beantragen.')">🔊</button>Man kann auch Geld überweisen, Geld abheben und eine Kreditkarte beantragen.</div>
+        <div class="sent"><span class="sent-num">16</span><button class="speak-btn" onclick="speak('Die Leute nehmen Kredit meistens für ein Haus oder für ein Auto auf.')">🔊</button>Die Leute nehmen Kredit meistens für ein Haus oder für ein Auto auf.</div>
+      </div>
+      <div class="par-hu">
+        <div class="par-label">🇭🇺 Magyar fordítás</div>
+        <div class="sent"><span class="sent-num">1</span><strong>Van zsebpénzed?</strong></div>
+        <div class="sent"><span class="sent-num">2</span>Van zsebpénzem, az ösztöndíj 25 000 Ft.</div>
+        <div class="sent"><span class="sent-num">3</span>A nyáron több helyen is dolgoztam.</div>
+        <div class="sent"><span class="sent-num">4</span>A munka fárasztó volt, de 150 000 Ft-ot kaptam.</div>
+        <div class="sent"><span class="sent-num">6</span>Nálunk az Övegesben van duális képzés.</div>
+        <div class="sent"><span class="sent-num">7</span>A duális képzés ellenére a gyakorlati helyünk itt van az iskolában.</div>
+        <div class="sent"><span class="sent-num">8</span><strong>Mire költöd a pénzt?</strong></div>
+        <div class="sent"><span class="sent-num">9</span>A pénzemet ruhákra költöm, például pulóverre vagy cipőre.</div>
+        <div class="sent"><span class="sent-num">11</span>Sokat költök a hobbiomra is.</div>
+        <div class="sent"><span class="sent-num">12</span>A legjobban az lenne, ha a zsebpénzemet utazásra költhetném.</div>
+        <div class="sent"><span class="sent-num">13</span><strong>Mit lehet egy bankban csinálni?</strong></div>
+        <div class="sent"><span class="sent-num">14</span>Egy bankban hitelt lehet felvenni, pénzt váltani és számlát nyitni.</div>
+        <div class="sent"><span class="sent-num">15</span>Pénzt lehet utalni, pénzt felvenni és hitelkártyát igényelni.</div>
+        <div class="sent"><span class="sent-num">16</span>Az emberek általában házra vagy autóra vesznek fel hitelt.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title"><span class="icon" style="background:#e8f7ec;">💳</span> Szókincs — Geld</div>
+    <div class="quiz-toggle" onclick="toggleQuiz('vg4','ts4')">
+      <div class="toggle-switch" id="ts4"><div class="toggle-knob"></div></div>
+      <span>Kvíz mód</span>
+    </div>
+    <div id="vg4">
+      <div class="sub-title">💵 Zsebpénz / Taschengeld</div>
+      <div class="vocab-grid">
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('das Taschengeld')">🔊</button><span class="de-word">das Taschengeld</span><span class="arr">→</span><span class="hu-word">zsebpénz</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('bekommen')">🔊</button><span class="de-word">bekommen</span><span class="arr">→</span><span class="hu-word">kapni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('zufrieden sein')">🔊</button><span class="de-word">zufrieden sein</span><span class="arr">→</span><span class="hu-word">elégedettnek lenni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('anstrengend')">🔊</button><span class="de-word">anstrengend</span><span class="arr">→</span><span class="hu-word">fárasztó</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('die Firma')">🔊</button><span class="de-word">die Firma</span><span class="arr">→</span><span class="hu-word">cég, vállalat</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('die duale Ausbildung')">🔊</button><span class="de-word">die duale Ausbildung</span><span class="arr">→</span><span class="hu-word">duális képzés</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('der Praxisplatz')">🔊</button><span class="de-word">der Praxisplatz</span><span class="arr">→</span><span class="hu-word">gyakorlati hely</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('trotz')">🔊</button><span class="de-word">trotz (+Gen.)</span><span class="arr">→</span><span class="hu-word">ellenére</span></div>
+      </div>
+      <div class="sub-title">🛍️ Mire költöd? / Wofür ausgeben?</div>
+      <div class="vocab-grid">
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('Geld ausgeben')">🔊</button><span class="de-word">Geld ausgeben</span><span class="arr">→</span><span class="hu-word">pénzt elkölteni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('der Pulli')">🔊</button><span class="de-word">der Pulli</span><span class="arr">→</span><span class="hu-word">pulóver</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('die Schuhe')">🔊</button><span class="de-word">die Schuhe</span><span class="arr">→</span><span class="hu-word">cipő</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('das Handy')">🔊</button><span class="de-word">das Handy</span><span class="arr">→</span><span class="hu-word">mobiltelefon</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('das Hobby')">🔊</button><span class="de-word">das Hobby</span><span class="arr">→</span><span class="hu-word">hobbi</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('die Reise')">🔊</button><span class="de-word">die Reise</span><span class="arr">→</span><span class="hu-word">utazás</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('Am liebsten würde ich')">🔊</button><span class="de-word">Am liebsten würde ich…</span><span class="arr">→</span><span class="hu-word">A legjobban azt szeretném…</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('ins Konzert gehen')">🔊</button><span class="de-word">ins Konzert gehen</span><span class="arr">→</span><span class="hu-word">koncertre menni</span></div>
+      </div>
+      <div class="sub-title">🏦 Bankban / In der Bank</div>
+      <div class="vocab-grid">
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('Kredit aufnehmen')">🔊</button><span class="de-word">Kredit aufnehmen</span><span class="arr">→</span><span class="hu-word">hitelt felvenni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('ein Konto eröffnen')">🔊</button><span class="de-word">ein Konto eröffnen</span><span class="arr">→</span><span class="hu-word">számlát nyitni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('Geld überweisen')">🔊</button><span class="de-word">Geld überweisen</span><span class="arr">→</span><span class="hu-word">pénzt utalni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('Geld abheben')">🔊</button><span class="de-word">Geld abheben</span><span class="arr">→</span><span class="hu-word">pénzt felvenni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('Geld wechseln')">🔊</button><span class="de-word">Geld wechseln</span><span class="arr">→</span><span class="hu-word">pénzt váltani</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('die Kreditkarte')">🔊</button><span class="de-word">die Kreditkarte</span><span class="arr">→</span><span class="hu-word">hitelkártya</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ══ ZUKUNFTSPLÄNE ══ -->
+<div class="section" id="zukunft">
+  <div class="section-title">🔭 Meine Zukunftspläne</div>
+  <p class="section-sub">Egyszerűsített mondatok a jövőtervek témájából — minden sor külön tanulható.</p>
+
+  <div class="card">
+    <div class="card-title">
+      <span class="icon" style="background:#f0e8ff;">📖</span>
+      Szöveg — Meine Zukunftspläne
+      <button class="read-btn" onclick="speakAll('zukunft-de')" style="margin-left:auto;">🔊 Egész szöveg</button>
+    </div>
+    <div class="parallel">
+      <div class="par-de" id="zukunft-de">
+        <div class="par-label">🇩🇪 Deutsch</div>
+        <div class="sent"><span class="sent-num">1</span><button class="speak-btn" onclick="speak('Was möchtest du nach dem Abitur machen?')">🔊</button><strong>Was möchtest du nach dem Abitur machen?</strong></div>
+        <div class="sent"><span class="sent-num">2</span><button class="speak-btn" onclick="speak('Nach dem Abitur möchte ich zuerst eine Pause machen, aber später will ich gern studieren.')">🔊</button>Nach dem Abitur möchte ich zuerst eine Pause machen, aber später will ich gern studieren.</div>
+        <div class="sent"><span class="sent-num">3</span><button class="speak-btn" onclick="speak('Ich denke, dass Studieren gut für meine Zukunft ist.')">🔊</button>Ich denke, dass Studieren gut für meine Zukunft ist.</div>
+        <div class="sent"><span class="sent-num">4</span><button class="speak-btn" onclick="speak('Ich möchte in meiner Stadt bleiben, weil meine Familie und meine Freunde hier leben.')">🔊</button>Ich möchte in meiner Stadt bleiben, weil meine Familie und meine Freunde hier leben.</div>
+        <div class="sent"><span class="sent-num">5</span><button class="speak-btn" onclick="speak('Ich habe schon einen Plan, aber ich bin noch ein bisschen unsicher.')">🔊</button>Ich habe schon einen Plan, aber ich bin noch ein bisschen unsicher.</div>
+        <div class="sent"><span class="sent-num">6</span><button class="speak-btn" onclick="speak('Welchen Beruf findest du interessant?')">🔊</button><strong>Welchen Beruf findest du interessant?</strong></div>
+        <div class="sent"><span class="sent-num">7</span><button class="speak-btn" onclick="speak('Der Beruf des Informatikers ist modern und spannend.')">🔊</button>Der Beruf des Informatikers ist modern und spannend.</div>
+        <div class="sent"><span class="sent-num">8</span><button class="speak-btn" onclick="speak('Informatiker arbeiten mit Computern, Software und neuen Technologien.')">🔊</button>Informatiker arbeiten mit Computern, Software und neuen Technologien.</div>
+        <div class="sent"><span class="sent-num">9</span><button class="speak-btn" onclick="speak('Man braucht logisches Denken und Geduld. Dieser Beruf ist abwechslungsreich und gut bezahlt.')">🔊</button>Man braucht logisches Denken und Geduld. Dieser Beruf ist abwechslungsreich und gut bezahlt.</div>
+        <div class="sent"><span class="sent-num">10</span><button class="speak-btn" onclick="speak('Möchtest du später eine Familie haben?')">🔊</button><strong>Möchtest du später eine Familie haben?</strong></div>
+        <div class="sent"><span class="sent-num">11</span><button class="speak-btn" onclick="speak('Nein, im Moment möchte ich lieber reisen und die Welt kennenlernen.')">🔊</button>Nein, im Moment möchte ich lieber reisen und die Welt kennenlernen.</div>
+        <div class="sent"><span class="sent-num">12</span><button class="speak-btn" onclick="speak('Ich möchte frei sein und viele Abenteuer erleben.')">🔊</button>Ich möchte frei sein und viele Abenteuer erleben.</div>
+        <div class="sent"><span class="sent-num">13</span><button class="speak-btn" onclick="speak('Vielleicht denke ich später anders, aber jetzt ist Reisen mein größter Traum.')">🔊</button>Vielleicht denke ich später anders, aber jetzt ist Reisen mein größter Traum.</div>
+      </div>
+      <div class="par-hu">
+        <div class="par-label">🇭🇺 Magyar fordítás</div>
+        <div class="sent"><span class="sent-num">1</span><strong>Mit szeretnél csinálni az érettségi után?</strong></div>
+        <div class="sent"><span class="sent-num">2</span>Az érettségi után először pihenni szeretnék, de később szívesen tanulnék tovább.</div>
+        <div class="sent"><span class="sent-num">3</span>Úgy gondolom, hogy a továbbtanulás jó a jövőmnek.</div>
+        <div class="sent"><span class="sent-num">4</span>A városomban szeretnék maradni, mert itt él a családom és a barátaim.</div>
+        <div class="sent"><span class="sent-num">5</span>Van már egy tervem, de még egy kicsit bizonytalan vagyok.</div>
+        <div class="sent"><span class="sent-num">6</span><strong>Melyik szakmát találod érdekesnek?</strong></div>
+        <div class="sent"><span class="sent-num">7</span>Az informatikus szakma modern és izgalmas.</div>
+        <div class="sent"><span class="sent-num">8</span>Számítógépekkel, szoftverekkel és új technológiákkal dolgoznak.</div>
+        <div class="sent"><span class="sent-num">9</span>Logikus gondolkodás és türelem kell hozzá. Ez a szakma változatos és jól fizetett.</div>
+        <div class="sent"><span class="sent-num">10</span><strong>Szeretnél később családot alapítani?</strong></div>
+        <div class="sent"><span class="sent-num">11</span>Nem, inkább utazni szeretnék és bejárnám a világot.</div>
+        <div class="sent"><span class="sent-num">12</span>Szabad szeretnék lenni és sok kalandot átélni.</div>
+        <div class="sent"><span class="sent-num">13</span>Talán később másképp gondolom, de most az utazás a legnagyobb álmom.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title"><span class="icon" style="background:#f0e8ff;">🔭</span> Szókincs — Zukunftspläne</div>
+    <div class="quiz-toggle" onclick="toggleQuiz('vg5','ts5')">
+      <div class="toggle-switch" id="ts5"><div class="toggle-knob"></div></div>
+      <span>Kvíz mód</span>
+    </div>
+    <div id="vg5">
+      <div class="sub-title">🎓 Érettségi után / Nach dem Abitur</div>
+      <div class="vocab-grid">
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('das Abitur')">🔊</button><span class="de-word">das Abitur</span><span class="arr">→</span><span class="hu-word">érettségi</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('studieren')">🔊</button><span class="de-word">studieren</span><span class="arr">→</span><span class="hu-word">továbbtanulni / egyetemre járni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('Berufserfahrung sammeln')">🔊</button><span class="de-word">Berufserfahrung sammeln</span><span class="arr">→</span><span class="hu-word">munkatapasztalatot szerezni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('unsicher sein')">🔊</button><span class="de-word">unsicher sein</span><span class="arr">→</span><span class="hu-word">bizonytalan lenni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('die Zukunft')">🔊</button><span class="de-word">die Zukunft</span><span class="arr">→</span><span class="hu-word">jövő</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('einen Plan haben')">🔊</button><span class="de-word">einen Plan haben</span><span class="arr">→</span><span class="hu-word">terve van</span></div>
+      </div>
+      <div class="sub-title">💼 Szakmák / Berufe</div>
+      <div class="vocab-grid">
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('der Informatiker')">🔊</button><span class="de-word">der Informatiker</span><span class="arr">→</span><span class="hu-word">informatikus</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('spannend')">🔊</button><span class="de-word">spannend</span><span class="arr">→</span><span class="hu-word">izgalmas</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('abwechslungsreich')">🔊</button><span class="de-word">abwechslungsreich</span><span class="arr">→</span><span class="hu-word">változatos</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('gut bezahlt')">🔊</button><span class="de-word">gut bezahlt</span><span class="arr">→</span><span class="hu-word">jól fizetett</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('logisches Denken')">🔊</button><span class="de-word">logisches Denken</span><span class="arr">→</span><span class="hu-word">logikus gondolkodás</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('die Geduld')">🔊</button><span class="de-word">die Geduld</span><span class="arr">→</span><span class="hu-word">türelem</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('der Gebäudetechniker')">🔊</button><span class="de-word">der Gebäudetechniker</span><span class="arr">→</span><span class="hu-word">épületgépész</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('das Geschick')">🔊</button><span class="de-word">das Geschick</span><span class="arr">→</span><span class="hu-word">ügyesség</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('der Händler')">🔊</button><span class="de-word">der Händler</span><span class="arr">→</span><span class="hu-word">kereskedő</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('kommunikativ')">🔊</button><span class="de-word">kommunikativ</span><span class="arr">→</span><span class="hu-word">kommunikatív</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('sicher und praktisch')">🔊</button><span class="de-word">sicher und praktisch</span><span class="arr">→</span><span class="hu-word">biztos és praktikus</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('sich vorstellen')">🔊</button><span class="de-word">sich vorstellen</span><span class="arr">→</span><span class="hu-word">elképzelni</span></div>
+      </div>
+      <div class="sub-title">🏡 Család és jövő / Familie und Zukunft</div>
+      <div class="vocab-grid">
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('eine Familie gründen')">🔊</button><span class="de-word">eine Familie gründen</span><span class="arr">→</span><span class="hu-word">családot alapítani</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('stabil')">🔊</button><span class="de-word">stabil</span><span class="arr">→</span><span class="hu-word">stabil</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('das hängt von mir ab')">🔊</button><span class="de-word">das hängt von … ab</span><span class="arr">→</span><span class="hu-word">…-tól függ</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('trotzdem')">🔊</button><span class="de-word">trotzdem</span><span class="arr">→</span><span class="hu-word">mégis / azért</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('aktiv bleiben')">🔊</button><span class="de-word">aktiv bleiben</span><span class="arr">→</span><span class="hu-word">aktív maradni</span></div>
+        <div class="vocab-item"><button class="speak-btn" onclick="speak('Zeit verbringen')">🔊</button><span class="de-word">Zeit verbringen</span><span class="arr">→</span><span class="hu-word">időt tölteni</span></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </main>
 
@@ -540,7 +724,7 @@
 function showSection(id) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  const order = ['home','hausarbeiten','unserhaus','restaurant','urlaub'];
+  const order = ['home','hausarbeiten','unserhaus','restaurant','urlaub','geld','zukunft'];
   document.querySelectorAll('.tab-btn').forEach((b,i) => b.classList.toggle('active', order[i]===id));
   window.scrollTo({top:0, behavior:'smooth'});
 }
